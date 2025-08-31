@@ -22,7 +22,7 @@ int main (int argc, char* const argv[])
   close (fd);
 
   
-  sscanf (file_memory, "%d", &integer);
+  sscanf((const char*) file_memory, "%d", &integer);
   printf ("value: %d\n", integer);
   sprintf ((char*) file_memory, "%d\n", 2 * integer);
   

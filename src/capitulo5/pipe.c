@@ -15,7 +15,7 @@ void writer (const char* message, int count, FILE* stream)
 
     sleep (1);
   }
-}
+} 
 
 
 
